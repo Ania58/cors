@@ -22,5 +22,6 @@ const getCharacterInfo = () => {
             <p>Origin: ${origin}</p>
             <img src="${image}" alt="${name}"/>
             `
+            characterInfo.style.visibility = 'visible';
         }) .catch(error => characterInfo.innerHTML = '<p>It\'s not possible to access the character')
 }
