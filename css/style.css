@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my code*/
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    color: #2c3e50;
+}
+
+/* Search Input and Button Styles */
+label {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+input[type="text"] {
+    width: 35rem;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border: 0.2rem solid #2c3e50;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    box-shadow: 0.3rem 0.3rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 1.5rem 2.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Character Information Styles */
+#characterInfo {
+    margin-top: 4rem;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0.3rem 0.3rem 2rem rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+#characterInfo h2 {
+    font-size: 2.8rem;
+    color: #e74c3c;
+}
+
+#characterInfo p {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+#characterInfo img {
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 1.5rem;
+    width: 22rem;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    #characterInfo {
+        width: 90%;
+        padding: 2rem;
+    }
+}
